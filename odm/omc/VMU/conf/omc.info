@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-J737P_SPT_VMU_PP_0009</version>
+  <model>
+    <name>SM-J737P</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0004</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>1</carrierCount>
+    <carrier>
+      <mcc>311</mcc>
+      <mnc>490</mnc>
+      <networkName>VMU</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

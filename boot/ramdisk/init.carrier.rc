@@ -1,0 +1,35 @@
+
+on init
+#carrier
+    mkdir /carrier 0771 system system
+
+on post-fs-data
+
+# HD-DMB CAS Key Data
+    mkdir /data/.dmbca 0771
+    chown media system /data/.dmbca
+    chmod 0771 /data/.dmbca
+
+on boot
+
+# tdmb
+    chown system system /dev/tdmb
+    chmod 0660 /dev/tdmb
+
+on fs
+#carrier
+    wait /dev/block/platform/13500000.dwmmc0/by-name/CARRIER
+    check_fs /dev/block/platform/13500000.dwmmc0/by-name/CARRIER ext4
+    mount ext4 /dev/block/platform/13500000.dwmmc0/by-name/CARRIER /carrier nosuid noatime nodev journal_checksum,noauto_da_alloc,discard,data=ordered,errors=panic
+    chown system system /carrier
+    chmod 0771 /carrier
+    restorecon -R /carrier
+
+service dmb /system/bin/dmbserver
+    class main
+    user media
+    group system radio inet misc audio graphics net_bt net_bt_admin sdcard_rw sdcard_r shell media_rw dpgp
+
+# Create carrier folder for HiddenMenu
+on post-fs
+     mkdir /efs/carrier 0755 system system

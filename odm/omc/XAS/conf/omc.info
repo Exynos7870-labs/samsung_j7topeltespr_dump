@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-J737P_SPT_XAS_PP_0022</version>
+  <model>
+    <name>SM-J737P</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0004</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>4</carrierCount>
+    <carrier>
+      <mcc>001</mcc>
+      <mnc>01</mnc>
+      <networkName>Sprint Test</networkName>
+    </carrier>
+    <carrier>
+      <mcc>001</mcc>
+      <mnc>010</mnc>
+      <networkName>Sprint Test</networkName>
+    </carrier>
+    <carrier>
+      <mcc>310</mcc>
+      <mnc>000</mnc>
+      <networkName>XAS</networkName>
+    </carrier>
+    <carrier>
+      <mcc>312</mcc>
+      <mnc>530</mnc>
+      <networkName>Sprint-Prepaid</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

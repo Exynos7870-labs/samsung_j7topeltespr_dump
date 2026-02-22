@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SW-Configuration>
+    <MobileData>
+        <PublicName>SM-J737P</PublicName>
+    </MobileData>
+    <OmcYn>Y</OmcYn>
+    <MultiCode>SPT</MultiCode>
+    <CustomerDataSet>
+        <CSCName>J737PSPT</CSCName>
+        <CSCVersion>ABUI1</CSCVersion>
+        <NbCustomer>4</NbCustomer>
+        <CustomerData src="/Customer/SPR/customer.xml" />
+        <CustomerData src="/Customer/VMU/customer.xml" />
+        <CustomerData src="/Customer/BST/customer.xml" />
+        <CustomerData src="/Customer/XAS/customer.xml" />
+    </CustomerDataSet>
+    <OmcInfo>
+        <OmcCode>
+            <CustomerCode>BST</CustomerCode>
+            <Version>SAOMC_SM-J737P_SPT_BST_PP_0009</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SPR</CustomerCode>
+            <Version>SAOMC_SM-J737P_SPT_SPR_PP_0023</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>VMU</CustomerCode>
+            <Version>SAOMC_SM-J737P_SPT_VMU_PP_0009</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XAS</CustomerCode>
+            <Version>SAOMC_SM-J737P_SPT_XAS_PP_0022</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+        </OmcCode>
+    </OmcInfo>
+</SW-Configuration>

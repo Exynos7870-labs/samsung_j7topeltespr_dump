@@ -1,0 +1,15 @@
+{
+  "update_version": 5,
+  "min_swver": "",
+  "note": "Change epdg setting explicitly because database update is not happening considering sync CL",
+  "imsprofile_update": {
+  },
+  "globalsettings_update": {
+  },
+  "epdgsettings" : [
+    {
+      "mnoname":"Sprint_US",
+      "dynamic_fqdn":"1"
+    }
+  ]
+}

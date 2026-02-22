@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<singlesku>
+    <appList>
+	<appInfo>
+		<package>com.sec.android.app.shealth</package>
+	</appInfo>
+        <appInfo>
+		<package>com.sec.android.easyMover</package>
+        </appInfo>
+	<appInfo> 
+		<package>com.google.android.apps.docs</package> 
+	</appInfo> 
+	<appInfo> 
+		<package>com.google.android.apps.tachyon</package> 
+	</appInfo> 
+	<appInfo> 
+		<package>com.google.android.videos</package> 
+	</appInfo> 
+	<appInfo> 
+		<package>com.google.android.music</package> 
+	</appInfo>
+	<appInfo>
+        <package>com.samsung.android.app.notes</package>
+    </appInfo>
+	<appInfo>
+		<package>com.samsung.android.oneconnect</package>
+	</appInfo>
+    </appList>
+</singlesku>
